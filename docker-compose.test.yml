@@ -1,0 +1,6 @@
+version: '3.8'
+
+services:
+  node-app-hokusai:
+    container_name: hokusai-api-test
+    command: yarn test
